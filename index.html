@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jeffery Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f4f4f9;
+      color: #333;
+    }
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+    .about, .services, .contact {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      padding: 8px 0;
+      border-bottom: 1px solid #ddd;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      background: #2c3e50;
+      color: #fff;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #1a242f;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #2c3e50;
+      color: #fff;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Jeffery Hub</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">What I Do</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      Hi, I’m <strong>Jeffery</strong>, a passionate and creative individual dedicated to building beautiful and functional digital experiences. I specialize in crafting websites that are user-friendly, visually appealing, and impactful. With a love for design and technology, I aim to bring ideas to life through clean code and thoughtful design.
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>What I Do</h2>
+    <ul>
+      <li>Web Design & Development</li>
+      <li>Responsive Layouts (Mobile-Friendly)</li>
+      <li>Creative Branding & Graphics</li>
+      <li>Portfolio & Personal Websites</li>
+      <li>Basic SEO Optimization</li>
+    </ul>
+  <section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/mpwjgvno" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Jeffery Hub | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
